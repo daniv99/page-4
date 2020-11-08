@@ -1,0 +1,87 @@
+/*fonts***************************/
+  @font-face {
+    font-family: Trispace;
+    src: url(fonts/Trispace/Trispace-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Teko;
+    src: url(fonts/Teko/Teko-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: Arvo;
+    src: url(fonts/Arvo/Arvo-BoldItalic.ttf);
+  }
+
+  /*******************************/
+body{
+  display: flex;
+  justify-content: center;
+  background: repeating-linear-gradient(
+  45deg,
+  #262626,
+  #262626 10px,
+  #333333 10px,
+  #333333 20px
+);
+
+}
+
+h1{
+  font-family: Trispace;
+}
+
+#container{
+  box-shadow: 8px 8px;
+  position: relative;
+  top: 125px;
+  width: 500px;
+}
+
+#hero-image{
+  display: flex;
+  justify-content: center;
+
+}
+
+#hero-image img{
+  width: 250px;
+  height: 255px;
+}
+
+#content-box{
+  color: white;
+  text-shadow: 2px 2px 4px #999999;
+  background: #660000;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px rgba( 0, 0, 0, 0.5);
+
+}
+
+ul{
+  position: relative;
+  margin: 40px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  margin: 10px;
+}
+
+a{
+  font-family:Arvo;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+
+a:hover{
+  background: #cce6ff;
+  color: #660000;
+
+}
